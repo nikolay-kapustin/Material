@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2763888A21A83129003B8A60 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2763888921A8311F003B8A60 /* Roboto-ThinItalic.ttf */; };
+		2763888C21A831A4003B8A60 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2763888B21A831A4003B8A60 /* Roboto-MediumItalic.ttf */; };
+		2763888E21A831AF003B8A60 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2763888D21A831AF003B8A60 /* Roboto-LightItalic.ttf */; };
+		2763889021A831C3003B8A60 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2763888F21A831C3003B8A60 /* Roboto-Italic.ttf */; };
+		2763889221A831CD003B8A60 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2763889121A831CC003B8A60 /* Roboto-BoldItalic.ttf */; };
+		2763889521A831DC003B8A60 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2763889321A831DC003B8A60 /* Roboto-Black.ttf */; };
+		2763889621A831DC003B8A60 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2763889421A831DC003B8A60 /* Roboto-BlackItalic.ttf */; };
 		961154CC1F32A7B100A78D74 /* ChipBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961154CB1F32A7B100A78D74 /* ChipBar.swift */; };
 		961527B91F3A509900E8B2AC /* ChipBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961527B81F3A509900E8B2AC /* ChipBarController.swift */; };
 		9617B07D1DFCA8CF00410F8F /* Application.swift in Headers */ = {isa = PBXBuildFile; fileRef = 961E6BDE1DDA2A95004E6C93 /* Application.swift */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -186,16 +193,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		968BA8351F8D201B0091852E /* PBXContainerItemProxy */ = {
+		27574EEC21A835E700D93425 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 968BA8311F8D201B0091852E /* Motion.xcodeproj */;
+			containerPortal = 27574EE821A835E700D93425 /* Motion.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 96C98DD11E424AB000B22906;
 			remoteInfo = "Motion iOS";
 		};
-		968BA8371F8D20530091852E /* PBXContainerItemProxy */ = {
+		27574EEE21A835F700D93425 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 968BA8311F8D201B0091852E /* Motion.xcodeproj */;
+			containerPortal = 27574EE821A835E700D93425 /* Motion.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 96C98DD01E424AB000B22906;
 			remoteInfo = "Motion iOS";
@@ -203,6 +210,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27574EE821A835E700D93425 /* Motion.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Motion.xcodeproj; path = ../Motion/Motion.xcodeproj; sourceTree = "<group>"; };
+		2763888921A8311F003B8A60 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		2763888B21A831A4003B8A60 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		2763888D21A831AF003B8A60 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		2763888F21A831C3003B8A60 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		2763889121A831CC003B8A60 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		2763889321A831DC003B8A60 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		2763889421A831DC003B8A60 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
 		961154CB1F32A7B100A78D74 /* ChipBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipBar.swift; sourceTree = "<group>"; };
 		961276621DCD8B1800A7D920 /* Material+NSMutableAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+NSMutableAttributedString.swift"; sourceTree = "<group>"; };
 		961527B81F3A509900E8B2AC /* ChipBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipBarController.swift; sourceTree = "<group>"; };
@@ -230,7 +245,6 @@
 		966C17721F0439F600D3E83C /* Material+MotionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material+MotionAnimation.swift"; sourceTree = "<group>"; };
 		966ECF291CF4C20100BB0BDF /* CollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
 		967A48181D0F425A00B8CEB7 /* StatusBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
-		968BA8311F8D201B0091852E /* Motion.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Motion.xcodeproj; sourceTree = "<group>"; };
 		968C99461D377849000074FF /* Offset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offset.swift; sourceTree = "<group>"; };
 		96A183621E0C6CE200083C30 /* FABMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FABMenu.swift; sourceTree = "<group>"; };
 		96A183641E0C6DD400083C30 /* FABMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FABMenuController.swift; sourceTree = "<group>"; };
@@ -308,6 +322,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		27574EE921A835E700D93425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27574EED21A835E700D93425 /* Motion.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9602F00C1DA1163000F3FB79 /* Grid */ = {
 			isa = PBXGroup;
 			children = (
@@ -340,7 +362,6 @@
 		961527531F393C0E00E8B2AC /* Motion */ = {
 			isa = PBXGroup;
 			children = (
-				968BA8311F8D201B0091852E /* Motion.xcodeproj */,
 			);
 			path = Motion;
 			sourceTree = "<group>";
@@ -429,6 +450,7 @@
 		9638322C1B88DFD80015F710 = {
 			isa = PBXGroup;
 			children = (
+				27574EE821A835E700D93425 /* Motion.xcodeproj */,
 				96D88BF41C1328D800B91418 /* Sources */,
 				963832371B88DFD80015F710 /* Products */,
 			);
@@ -517,14 +539,6 @@
 			name = StatusBar;
 			sourceTree = "<group>";
 		};
-		968BA8321F8D201B0091852E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				968BA8361F8D201B0091852E /* Motion.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		968C99421D36EC9E000074FF /* Switch */ = {
 			isa = PBXGroup;
 			children = (
@@ -586,11 +600,18 @@
 		96BCB7ED1CB40DE900C806FE /* Roboto */ = {
 			isa = PBXGroup;
 			children = (
+				2763889321A831DC003B8A60 /* Roboto-Black.ttf */,
+				2763889421A831DC003B8A60 /* Roboto-BlackItalic.ttf */,
 				96BCB7EE1CB40DE900C806FE /* Roboto-Bold.ttf */,
+				2763889121A831CC003B8A60 /* Roboto-BoldItalic.ttf */,
 				96BCB7EF1CB40DE900C806FE /* Roboto-Light.ttf */,
+				2763888D21A831AF003B8A60 /* Roboto-LightItalic.ttf */,
 				96BCB7F01CB40DE900C806FE /* Roboto-Medium.ttf */,
+				2763888B21A831A4003B8A60 /* Roboto-MediumItalic.ttf */,
 				96BCB7F11CB40DE900C806FE /* Roboto-Regular.ttf */,
+				2763888F21A831C3003B8A60 /* Roboto-Italic.ttf */,
 				96BCB7F21CB40DE900C806FE /* Roboto-Thin.ttf */,
+				2763888921A8311F003B8A60 /* Roboto-ThinItalic.ttf */,
 			);
 			path = Roboto;
 			sourceTree = "<group>";
@@ -874,7 +895,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				968BA8381F8D20530091852E /* PBXTargetDependency */,
+				27574EEF21A835F700D93425 /* PBXTargetDependency */,
 			);
 			name = Material;
 			productName = FocusKit;
@@ -913,8 +934,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 968BA8321F8D201B0091852E /* Products */;
-					ProjectRef = 968BA8311F8D201B0091852E /* Motion.xcodeproj */;
+					ProductGroup = 27574EE921A835E700D93425 /* Products */;
+					ProjectRef = 27574EE821A835E700D93425 /* Motion.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -925,11 +946,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		968BA8361F8D201B0091852E /* Motion.framework */ = {
+		27574EED21A835E700D93425 /* Motion.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Motion.framework;
-			remoteRef = 968BA8351F8D201B0091852E /* PBXContainerItemProxy */;
+			remoteRef = 27574EEC21A835E700D93425 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -940,11 +961,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				96334EF61C8B84660083986B /* Assets.xcassets in Resources */,
+				2763889221A831CD003B8A60 /* Roboto-BoldItalic.ttf in Resources */,
 				96BCB7F71CB40DE900C806FE /* Roboto-Medium.ttf in Resources */,
 				96BCB7F31CB40DE900C806FE /* Roboto-Bold.ttf in Resources */,
+				2763888A21A83129003B8A60 /* Roboto-ThinItalic.ttf in Resources */,
+				2763888C21A831A4003B8A60 /* Roboto-MediumItalic.ttf in Resources */,
+				2763889621A831DC003B8A60 /* Roboto-BlackItalic.ttf in Resources */,
+				2763888E21A831AF003B8A60 /* Roboto-LightItalic.ttf in Resources */,
 				96BCB7FB1CB40DE900C806FE /* Roboto-Thin.ttf in Resources */,
+				2763889021A831C3003B8A60 /* Roboto-Italic.ttf in Resources */,
 				96BCB7F91CB40DE900C806FE /* Roboto-Regular.ttf in Resources */,
 				96BCB7F51CB40DE900C806FE /* Roboto-Light.ttf in Resources */,
+				2763889521A831DC003B8A60 /* Roboto-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1052,10 +1080,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		968BA8381F8D20530091852E /* PBXTargetDependency */ = {
+		27574EEF21A835F700D93425 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Motion iOS";
-			targetProxy = 968BA8371F8D20530091852E /* PBXContainerItemProxy */;
+			targetProxy = 27574EEE21A835F700D93425 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

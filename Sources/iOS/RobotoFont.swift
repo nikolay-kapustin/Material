@@ -66,10 +66,11 @@ public struct RobotoFont: FontType {
    - Parameter with size: A CGFLoat for the font size.
    - Returns: A UIFont.
    */
-  public static func thin(with size: CGFloat) -> UIFont {
-    Font.loadFontIfNeeded(name: "Roboto-Thin")
+  public static func thin(with size: CGFloat, italic:Bool = false) -> UIFont {
+    let name = italic ? "Roboto-ThinItalic" : "Roboto-Thin"
+    Font.loadFontIfNeeded(name: name)
     
-    if let f = UIFont(name: "Roboto-Thin", size: size) {
+    if let f = UIFont(name: name, size: size) {
       return f
     }
     
@@ -81,10 +82,11 @@ public struct RobotoFont: FontType {
    - Parameter with size: A CGFLoat for the font size.
    - Returns: A UIFont.
    */
-  public static func light(with size: CGFloat) -> UIFont {
-    Font.loadFontIfNeeded(name: "Roboto-Light")
+  public static func light(with size: CGFloat, italic:Bool = false) -> UIFont {
+    let name = italic ? "Roboto-LightItalic" : "Roboto-Light"
+    Font.loadFontIfNeeded(name: name)
     
-    if let f = UIFont(name: "Roboto-Light", size: size) {
+    if let f = UIFont(name: name, size: size) {
       return f
     }
     
@@ -96,10 +98,11 @@ public struct RobotoFont: FontType {
    - Parameter with size: A CGFLoat for the font size.
    - Returns: A UIFont.
    */
-  public static func regular(with size: CGFloat) -> UIFont {
-    Font.loadFontIfNeeded(name: "Roboto-Regular")
+  public static func regular(with size: CGFloat, italic:Bool = false) -> UIFont {
+    let name = italic ? "Roboto-Italic" : "Roboto-Regular"
+    Font.loadFontIfNeeded(name: name)
     
-    if let f = UIFont(name: "Roboto-Regular", size: size) {
+    if let f = UIFont(name: name, size: size) {
       return f
     }
     
@@ -111,10 +114,11 @@ public struct RobotoFont: FontType {
    - Parameter with size: A CGFLoat for the font size.
    - Returns: A UIFont.
    */
-  public static func medium(with size: CGFloat) -> UIFont {
-    Font.loadFontIfNeeded(name: "Roboto-Medium")
+  public static func medium(with size: CGFloat, italic:Bool = false) -> UIFont {
+    let name = italic ? "Roboto-MediumItalic" : "Roboto-Medium"
+    Font.loadFontIfNeeded(name: name)
     
-    if let f = UIFont(name: "Roboto-Medium", size: size) {
+    if let f = UIFont(name: name, size: size) {
       return f
     }
     
@@ -126,13 +130,29 @@ public struct RobotoFont: FontType {
    - Parameter with size: A CGFLoat for the font size.
    - Returns: A UIFont.
    */
-  public static func bold(with size: CGFloat) -> UIFont {
-    Font.loadFontIfNeeded(name: "Roboto-Bold")
+  public static func bold(with size: CGFloat, italic:Bool = false) -> UIFont {
+    let name = italic ? "Roboto-BoldItalic" : "Roboto-Bold"
+    Font.loadFontIfNeeded(name: name)
     
-    if let f = UIFont(name: "Roboto-Bold", size: size) {
+    if let f = UIFont(name: name, size: size) {
       return f
     }
     
+    return Font.boldSystemFont(ofSize: size)
+  }
+  /**
+   Black with size font.
+   - Parameter with size: A CGFLoat for the font size.
+   - Returns: A UIFont.
+   */
+  public static func black(with size: CGFloat, italic:Bool = false) -> UIFont {
+    let name = italic ? "Roboto-BlackItalic" : "Roboto-Black"
+    Font.loadFontIfNeeded(name: name)
+
+    if let f = UIFont(name: name, size: size) {
+      return f
+    }
+
     return Font.boldSystemFont(ofSize: size)
   }
 }
