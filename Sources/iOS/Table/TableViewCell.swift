@@ -159,6 +159,10 @@ open class TableViewCell: UITableViewCell, Pulseable, PulseableLayer {
     super.touchesCancelled(touches, with: event)
     pulse.contract()
   }
+
+  open func resetPulse() {
+    pulse.contract()
+  }
   
   /**
    Prepares the view instance when intialized. When subclassing,

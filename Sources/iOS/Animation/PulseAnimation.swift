@@ -52,6 +52,9 @@ public protocol Pulseable {
   
   /// The opcaity value for the pulse animation.
   var pulseOpacity: CGFloat { get set }
+
+  /// Explicity cancel pulsing animation.
+  func resetPulse()
 }
 
 internal protocol PulseableLayer {
@@ -99,6 +102,11 @@ public struct Pulse {
     
     guard let layer = pulseLayer else {
       return
+    }
+    
+    if layers.count > 0 {
+      _ = layers.map{$0.removeFromSuperlayer()}
+      layers.removeAll()
     }
     
     guard .none != animation else {
@@ -166,11 +174,16 @@ public struct Pulse {
   
   /// Triggers the contracting animation.
   public mutating func contract() {
+    if layers.count > 1 {
+      layers.first?.removeFromSuperlayer()
+      layers.removeFirst()
+    }
     guard let bLayer = layers.popLast() else {
       return
     }
     
     guard let animated = bLayer.value(forKey: "animated") as? Bool else {
+      bLayer.removeFromSuperlayer()
       return
     }
     

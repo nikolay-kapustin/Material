@@ -79,6 +79,10 @@ open class Button: UIButton, Pulseable, PulseableLayer, Themeable {
       pulse.opacity = value
     }
   }
+
+  open func resetPulse() {
+    pulse.contract()
+  }
   
   /// A property that accesses the backing layer's background
   @IBInspectable

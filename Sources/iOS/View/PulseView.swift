@@ -116,6 +116,10 @@ open class PulseView: View, Pulseable, PulseableLayer {
     super.touchesCancelled(touches, with: event)
     pulse.contract()
   }
+
+  open func resetPulse() {
+    pulse.contract()
+  }
   
   open override func prepare() {
     super.prepare()

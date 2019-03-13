@@ -80,6 +80,10 @@ open class CollectionViewCell: UICollectionViewCell, Pulseable, PulseableLayer {
       pulse.opacity = value
     }
   }
+
+  open func resetPulse() {
+    pulse.contract()
+  }
   
   /**
    A property that manages an image for the visualLayer's contents
